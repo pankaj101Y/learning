@@ -8,8 +8,11 @@ public class ValidationDemo extends BaseClass{
 //        person.name="pankaj";
 //        validate(person);
 
-        SuperHuman superHuman=new SuperHuman();
-        superHuman.age=5;
-        validate(superHuman);
+//        SuperHuman superHuman=new SuperHuman();
+//        superHuman.age=5;
+//        validate(superHuman);
+
+        Person person=new Person(null);
+        validate(person);
     }
 }
