@@ -10,5 +10,4 @@ public interface PersonRepo extends JpaRepository<Person,Long> {
 //    @Query(value = "select * from cart_sub_items where attributes->>'homesOrderId'=? and lob='HOME'",nativeQuery = true)
     @Query(value = "select * from Person where properties->>'homesId'=? and lob=?",nativeQuery = true)
     List<Person>findByHomesId(String id,String lob);
-
 }
