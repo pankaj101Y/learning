@@ -6,6 +6,7 @@ public class ReflectionDemo {
 
     public static void main(String[] args) {
         Class<?> codeClass=ResponseCode.class;
+
         Object[]codes= codeClass.getEnumConstants();
         Field[] fields=codeClass.getFields();
 
