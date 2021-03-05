@@ -10,6 +10,9 @@ public class AutoWirePlay {
 
     @Autowired
     Foo foo;
+
+    @Autowired Child base;
+
     public AutoWirePlay() {
         System.out.println("init autoWirePlay");
 //        foo.say();// throws NLE
@@ -18,6 +21,7 @@ public class AutoWirePlay {
     @PostConstruct
     public void now(){
         foo.say();
+        base.get("csdcs");
     }
 
     @Component

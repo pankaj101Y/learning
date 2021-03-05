@@ -1,0 +1,1633 @@
+{
+  "list": [
+    {
+      "PROPERTY_ID": 2,
+      "KEY": "opus.submit.task.url",
+      "VALUE": "http://10.5.200.97:30731/opus-evtask/opus/evtask/submitGenericTask/v1",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 3,
+      "KEY": "edsl.caf.pdf.form.path",
+      "VALUE": "/eDSL/form/CAF_DSL_Aadhaar.pdf",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 4,
+      "KEY": "cheque.file.path",
+      "VALUE": "/usr/eDSL/Image",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 5,
+      "KEY": "edsl.caf.pdf.creation.path",
+      "VALUE": "/usr/eDSL/pdf/",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 6,
+      "KEY": "com.interceptors.security.keypath",
+      "VALUE": "/usr/eDSL/server_private.der",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 7,
+      "KEY": "edsl.crypto.filter.enabled",
+      "VALUE": "1",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 8,
+      "KEY": "edsl.security.request.filter.enabled",
+      "VALUE": "1",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 9,
+      "KEY": "edsl.security.response.filter.enabled",
+      "VALUE": "1",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 10,
+      "KEY": "failed.task.submit.delay.minutes",
+      "VALUE": "3",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 11,
+      "KEY": "default.edsl.inbox.days",
+      "VALUE": "10",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 12,
+      "KEY": "failed.task.submit.period.minutes",
+      "VALUE": "10",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 13,
+      "KEY": "dsl.solace.keep.alive.max.messages",
+      "VALUE": "10",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 14,
+      "KEY": "retry.submit.queue.time",
+      "VALUE": "10000",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 15,
+      "KEY": "dsl.solace.keep.alive.interval",
+      "VALUE": "10000",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 16,
+      "KEY": "gst.rate",
+      "VALUE": "18",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 17,
+      "KEY": "com.redis.sentinal.ip",
+      "VALUE": "192.168.19.17,26379;192.168.19.14,26379",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 18,
+      "KEY": "com.redis.sentinel.master",
+      "VALUE": "192.168.19.6",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 19,
+      "KEY": "com.redis.max.total",
+      "VALUE": "2",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 20,
+      "KEY": "com.redis.max.idle",
+      "VALUE": "2",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 21,
+      "KEY": "com.redis.min.idle",
+      "VALUE": "2",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 22,
+      "KEY": "dsl.solace.retries.attempt",
+      "VALUE": "2",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 23,
+      "KEY": "version",
+      "VALUE": "2.07,2.02,1,3",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 24,
+      "KEY": "resend.otp.time.thresold",
+      "VALUE": "20",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 25,
+      "KEY": "circuit.breaker.threshold",
+      "VALUE": "3",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 26,
+      "KEY": "max.otp.attempts",
+      "VALUE": "3",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 27,
+      "KEY": "failed.task.retry.attempts",
+      "VALUE": "3",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 28,
+      "KEY": "resend.otp.verify.thresold",
+      "VALUE": "3",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 29,
+      "KEY": "otp.attempt.interval(in minutes)",
+      "VALUE": "30",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 30,
+      "KEY": "edsl.security.request.timeout",
+      "VALUE": "300",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 31,
+      "KEY": "http.socket.timeout",
+      "VALUE": "60000",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 32,
+      "KEY": "dsl.solace.connection.timeout",
+      "VALUE": "30000",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 33,
+      "KEY": "dsl.solace.read.timeout",
+      "VALUE": "30000",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 34,
+      "KEY": "http.connection.request.timeout",
+      "VALUE": "60000",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 35,
+      "KEY": "http.read.timeout",
+      "VALUE": "60000",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 36,
+      "KEY": "otp.length",
+      "VALUE": "4",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 37,
+      "KEY": "failed.task.process.period.minutes",
+      "VALUE": "5",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 38,
+      "KEY": "resend.otp.count.thresold",
+      "VALUE": "4",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 39,
+      "KEY": "short.code.name",
+      "VALUE": "5163339",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 40,
+      "KEY": "failed.task.process.delay.minutes",
+      "VALUE": "6",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 41,
+      "KEY": "circuit.breaker.timeout(in seconds)",
+      "VALUE": "180",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 42,
+      "KEY": "caf.cancel.thresold",
+      "VALUE": "7",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 43,
+      "KEY": "active.session.per.connection.consumer",
+      "VALUE": "8",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 44,
+      "KEY": "mb.sms.format.ftl",
+      "VALUE": "<?xml version=\"1.0\" encoding=\"US-ASCII\"?><message><sms type=\"mt\"><destination><address><number type=\"national\">%(msisdn)</number></address></destination><source><address><number type=\"abbreviated\">%(shortcode)</number></address></source><rsr type=\"sms\"/><ud type=\"text\">%(smsText)</ud></sms></message>",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 45,
+      "KEY": "topup.name",
+      "VALUE": "Airtel -Unlimited Top-Up  @299",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 46,
+      "KEY": "payment.message.online",
+      "VALUE": "CAF %s %s",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 47,
+      "KEY": "cheque.txn.id.prefix",
+      "VALUE": "CDPI",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 48,
+      "KEY": "order.submit.message.online",
+      "VALUE": "Hi, your Airtel Xstream Fiber Digital Application Form No. is %s. Our engineer will call you within 24 Hrs. to schedule an appointment for activating your connection.",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 49,
+      "KEY": "ftth.dsl.tech",
+      "VALUE": "FTTH Own",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 50,
+      "KEY": "online.payment.messgae",
+      "VALUE": "Hi, We are waiting to get you on board with Airtel Xstream Fiber services. Please make the payment now, your order will be processes after successful receipt of the payment. Click",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 51,
+      "KEY": "password",
+      "VALUE": "v6Kc6gTH",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 52,
+      "KEY": "otp.sms.text",
+      "VALUE": "Your OTP is : %s . Airtel will never call you to ask for OTP/Password details. Please do not share your details with anyone.",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 53,
+      "KEY": "aadhaar.regex",
+      "VALUE": "[.#@()\\[\\]\\\\]",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 54,
+      "KEY": "Online.Payment.Link",
+      "VALUE": "c=%s&m=%s&a=%s&ut299=%s&utId=%s&utAmount=%s",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 55,
+      "KEY": "Online.Payment.Link.new",
+      "VALUE": "c=%s&m=%s&a=%s&ut299=%s&utId=%s&utAmount=%s",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 56,
+      "KEY": "pdf.solace.password",
+      "VALUE": "cafpdfpuser",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 57,
+      "KEY": "pdf.solace.username",
+      "VALUE": "cafpdfpuser@ATevPortalVPN",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 58,
+      "KEY": "dslplan.username",
+      "VALUE": "ecaf",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 59,
+      "KEY": "username",
+      "VALUE": "ecaf",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 60,
+      "KEY": "dsl.solace.retry.topic.consumer.password",
+      "VALUE": "ecafEdslcuser",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 61,
+      "KEY": "dsl.solace.retry.topic.consumer.username",
+      "VALUE": "ecafEdslcuser@ATSIT2EdslVPN",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 62,
+      "KEY": "dsl.retry.solace.topic.producer.password",
+      "VALUE": "ecafEdslpuser",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 63,
+      "KEY": "dsl.retry.solace.topic.producer.username",
+      "VALUE": "ecafEdslpuser@ATSIT2EdslVPN",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 64,
+      "KEY": "dsl.solace.queue.username",
+      "VALUE": "ecafcuser@ATAadhaarVPN",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 65,
+      "KEY": "dsl.solace.queue.password",
+      "VALUE": "ecafcuser@ATAadhaarVPN",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 66,
+      "KEY": "dsl.solace.lms.topic.producer.password",
+      "VALUE": "ecafpuser",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 67,
+      "KEY": "dsl.solace.ev.topic.consumer.password",
+      "VALUE": "edslcuser",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 68,
+      "KEY": "pdf.solace.consumer.password",
+      "VALUE": "edslcuser",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 69,
+      "KEY": "pdf.solace.consumer.username",
+      "VALUE": "edslcuser@ATevPortalVPN",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 70,
+      "KEY": "dsl.solace.ev.topic.consumer.username",
+      "VALUE": "edslcuser@ATevPortalVPN",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 71,
+      "KEY": "dsl.solace.ev.topic.producer.password",
+      "VALUE": "edslpuser",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 72,
+      "KEY": "dsl.solace.ev.topic.producer.username",
+      "VALUE": "edslpuser@ATevPortalVPN",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 73,
+      "KEY": "dsl.solace.lms.topic.producer.username",
+      "VALUE": "esbpuser",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 74,
+      "KEY": "dsl.solace.lms.topic.ml.username",
+      "VALUE": "esbpuser",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 75,
+      "KEY": "dsl.solace.lms.topic.ml.username",
+      "VALUE": "esbpuser",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 76,
+      "KEY": "dsl.solace.lms.topic.ml.password",
+      "VALUE": "esbpuser",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 78,
+      "KEY": "mb.username",
+      "VALUE": "fhecaf",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 79,
+      "KEY": "mb.password",
+      "VALUE": "fhecaf2",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 80,
+      "KEY": "esb.dsl.my.plan.url",
+      "VALUE": "http://10.5.247.126:8011/services/product/manageproductofferinginventorycapture/prospectivebillplansforcustomer/v1_5?domain=B2C&programmeName=Aadhar-Telemedia&lob=Telemedia&consumerTransactionId=Sayyed123&consumerName=ecaf&productType=FLVOICE,FLDSL&orderType=NEW",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 81,
+      "KEY": "esb.dsl.resource.feasibility.url",
+      "VALUE": "http://10.14.50.31:8011/services/resource/resourceprovisioning/determineserviceavailability/Inventory/search/v1_1?domain=B2C&lob=Telemedia&consumerTransactionId=11242532dueuedst4ey53655e8&consumerName=eCAF&programmeName=Telemedia-Aadhaar&customerMigrated=false&circuitId={0}",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 82,
+      "KEY": "esb.dsl.resource.list.url",
+      "VALUE": "http://10.14.50.31:8011/services/resource/resourceprovisioning/determineserviceavailability/Inventory/search/v1_1?domain=B2C&lob=Telemedia&consumerTransactionId=7893475&consumerName=eCAF&programmeName=Telemedia-Aadhar&lat={0}&long={1}",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 83,
+      "KEY": "nds.customer.profile.url",
+      "VALUE": "http://10.5.153.157:9080/NDSLookupService/services/NDSLookupService",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 84,
+      "KEY": "cms.agent.details.url",
+      "VALUE": "http://10.5.200.248:30681/cms/user/fetchDetails",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 85,
+      "KEY": "cms.agent.details.update.url",
+      "VALUE": "http://10.5.200.97:32194/cms/user/update/aadhaarDetails",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 86,
+      "KEY": "customer.details.by.dslId.url",
+      "VALUE": "http://10.5.213.85:8080/managecustomerdata_V1_4/customer?lob=Telemedia&dslId={0}",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 87,
+      "KEY": "esb.dsl.submit.order.url",
+      "VALUE": "http://10.13.80.242:8000/services/CustomerOrder_V1_2/Manage",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 88,
+      "KEY": "eDSL.vid.auth.url",
+      "VALUE": "http://10.5.247.120:8001/AUA2_5/customer/verifycustomer/verifycustomeraadhaardetails/v2/verifyCustomerAuthDetails",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 89,
+      "KEY": "eDSL.vid.kyc.url",
+      "VALUE": "http://10.5.247.120:8001/KUA2_5/customer/getUser/getUserAadhaarProfile/v2_1/getUserAadhaarProfileDetails",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 90,
+      "KEY": "esb.dsl.nms.url",
+      "VALUE": "http://10.5.247.126:8011/numberinventorymanagement_v1/number",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 91,
+      "KEY": "esb.dsl.my.plan.new.url",
+      "VALUE": "http://127.0.0.1:7315/services/product/manageproductofferinginventorycapture/prospectivebillplansforcustomer/v1_5?domain=B2C&programmeName=Aadhar-Telemedia&lob=Telemedia&consumerTransactionId=Sayyed123&consumerName=ecaf&productType=FLVOICE,FLDSL&orderType=NEW",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 92,
+      "KEY": "mb.url",
+      "VALUE": "http://10.5.176.129:55000/",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 93,
+      "KEY": "esb.dsl.new.resource.list.url",
+      "VALUE": "http://internalapi-gateway.india.airtel.itm:8080/feasibility/rest/feasibility/findFeasiblePlans",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 94,
+      "KEY": "esb.dsl.aadhaar.auth2.url",
+      "VALUE": "http://127.0.0.1:8089/aadhaarAUA/customer/verifycustomer/verifycustomeraadhaardetails/v1/verifyCustomerAuthDetails",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 95,
+      "KEY": "esb.dsl.aadhaar.auth.url",
+      "VALUE": "http://127.0.0.1:8089/aadhaarAUA/customer/verifycustomer/verifycustomeraadhaardetails/v1/verifyCustomerAuthDetails",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 96,
+      "KEY": "esb.dsl.aadhaar.kyc.url",
+      "VALUE": "http://127.0.0.1:8089/aadhaarKUA2/customer/getUser/getUserAadhaarProfile/v2/getUserAadhaarProfileDetails",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 97,
+      "KEY": "esb.dsl.aadhaar.kyc2.url",
+      "VALUE": "http://127.0.0.1:8089/aadhaarKUA2/customer/getUser/getUserAadhaarProfile/v2/getUserAadhaarProfileDetails",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 98,
+      "KEY": "dsl.solace.lms.ml.http.topic",
+      "VALUE": "http://dev.esbsolace.airtelworld.in:8799/eCAFUpdateProspectStatusReqT",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 99,
+      "KEY": "dsl.solace.lms.create.http.topic",
+      "VALUE": "http://dev.esbsolace.airtelworld.in:8801/eCAFCreateProspectReqT",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 149,
+      "KEY": "pdf.solace.consumer.topic.dev",
+      "VALUE": "jms/evportal/eDSLCAFModuleSITQ",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 150,
+      "KEY": "dsl.solace.compliance.consume.queue.dev",
+      "VALUE": "jms/evportal/eDSLCAFModuleSITQ",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 409,
+      "KEY": "edsl.gender.type.list",
+      "VALUE": "F,M,U,O",
+      "CREATED_ON": "2019-01-15 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2019-01-15 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 100,
+      "KEY": "dsl.solace.connection.factory",
+      "VALUE": "jms/aadhaar/aadhaarConnectionFactory",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 128,
+      "KEY": "edsl.otp.send.message",
+      "VALUE": "{otp} is the one time password(OTP) for activation of Airtel Xstream Fiber with Digital Application Form no. {activationMsisdn}. This OTP certifies that you agree to the terms &amp; conditions of Airtel Digital Xstream Fiber Activation Process.",
+      "CREATED_ON": "2019-12-05 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2019-12-05 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 129,
+      "KEY": "edsl.order.submit.message",
+      "VALUE": "Hi, your Airtel Xstream Fiber Digital Application Form No. is %s. Our engineer will call you within 24 Hrs. to schedule an appointment for activating your connection.",
+      "CREATED_ON": "2019-12-05 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2019-12-05 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 136,
+      "KEY": "edsl.otp.sms.address.flag",
+      "VALUE": "true",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 137,
+      "KEY": "edsl.crypto.bypass.services",
+      "VALUE": "ecaf-cart",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 138,
+      "KEY": "edsl.jwt.expiry.bypass.services",
+      "VALUE": "ecaf-cart",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 143,
+      "KEY": "edsl.find.feasiblity.url",
+      "VALUE": "http://internalapi-gateway.india.airtel.itm:8080/feasibility/rest/feasibility/findFeasiblePlans",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 151,
+      "KEY": "edsl.cart.rabbitmq.host",
+      "VALUE": "10.5.30.86",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 144,
+      "KEY": "edsl.basic.auth.password",
+      "VALUE": "ecaf@Password",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 145,
+      "KEY": "edsl.basic.auth.username",
+      "VALUE": "ecaf",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 148,
+      "KEY": "dsl.solace.compliance.consume.queue",
+      "VALUE": "jms/ATevportal/eDSLCAFModuleSITQ",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 152,
+      "KEY": "edsl.cart.rabbitmq.port",
+      "VALUE": "5672",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 153,
+      "KEY": "edsl.cart.rabbitmq.username",
+      "VALUE": "evportal",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 154,
+      "KEY": "edsl.cart.rabbitmq.password",
+      "VALUE": "evportal",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 155,
+      "KEY": "edsl.cart.rabbitmq.virtual-host",
+      "VALUE": "ecafatvhost",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 156,
+      "KEY": "edsl.cart.rabbitmq.queue",
+      "VALUE": "cart-milestone",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 157,
+      "KEY": "edsl.cart.rabbitmq.routingKey",
+      "VALUE": "milestone.cart",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 158,
+      "KEY": "edsl.cart.rabbitmq.exchange",
+      "VALUE": "ecafexh",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 159,
+      "KEY": "edsl.cart.rabbitmq.max.threadpool.size",
+      "VALUE": "50",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 160,
+      "KEY": "edsl.cart.rabbitmq.core.threadpool.size",
+      "VALUE": "20",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 161,
+      "KEY": "edsl.cart.rabbitmq.exchange.type",
+      "VALUE": "topic",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 162,
+      "KEY": "edsl.cart.rabbitmq.connection.timeout",
+      "VALUE": "2",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 163,
+      "KEY": "edsl.cart.rabbitmq.request.timeout",
+      "VALUE": "2000",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 164,
+      "KEY": "edsl.cart.camel.config.flag",
+      "VALUE": "true",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 165,
+      "KEY": "edsl.cart.rabbitmq.max.queue.size",
+      "VALUE": "-1",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 414,
+      "KEY": "edsl.cart.default.agent.type",
+      "VALUE": "DSL_AGENT",
+      "CREATED_ON": "2020-09-29 13:51:24",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-09-29 13:51:24",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 4417,
+      "KEY": "edsl.tech.wise.rsu.skip",
+      "VALUE": "YYY,GKP",
+      "CREATED_ON": "2019-12-05 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2019-12-05 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 417,
+      "KEY": "edsl.rsu.pincode.flag",
+      "VALUE": "true",
+      "CREATED_ON": "2020-11-06 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-11-06 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 130,
+      "KEY": "cart.edsl.rabbitMQ.queue",
+      "VALUE": "dsl-milestone-queue-at",
+      "CREATED_ON": "2019-12-05 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2019-12-05 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 131,
+      "KEY": "edsl.cart.rabbitMQ.exchange.at",
+      "VALUE": "ecaf-dsl-cart-at",
+      "CREATED_ON": "2019-12-05 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2019-12-05 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 132,
+      "KEY": "edsl.cart.rabbitMQ.exchange.at",
+      "VALUE": "milestone",
+      "CREATED_ON": "2019-12-05 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2019-12-05 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 142,
+      "KEY": "edsl.building.rsu.url",
+      "VALUE": "http://10.5.252.71:8680/compassLocation/rest/networkElement/findByRsu",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 146,
+      "KEY": "edsl.tech.list",
+      "VALUE": "ADSL,VECTOR,FTTH OWN,FTTH PARTNER",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 147,
+      "KEY": "edsl.address.division.flag",
+      "VALUE": "true",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 410,
+      "KEY": "edsl.rsu.city.validation.flag",
+      "VALUE": "true",
+      "CREATED_ON": "2020-08-10 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-08-10 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 411,
+      "KEY": "edsl.cart.plan.speed.flag",
+      "VALUE": "false",
+      "CREATED_ON": "2020-08-24 12:20:22",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-08-24 12:20:22",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 412,
+      "KEY": "edsl.crm.tech.config.list",
+      "VALUE": "VECTOR:VECTOR;FTTH OWN:FTTH Own,FTTH PARTNER:FTTH Partner",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 413,
+      "KEY": "edsl.tech.wise.ne.type",
+      "VALUE": "FTTH OWN:OTB,S_OBD;FTTH PARTNER:OTB,S_OBD;ADSL:DP,PDP;VECTOR:DP,PDP;Vector:DP,PDP;FTTH Own:OTB,S_OBD",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 101,
+      "KEY": "dsl.solace.queue.name",
+      "VALUE": "jms/aadhaar/eCAFdslMilestoneQueue",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 102,
+      "KEY": "retry.queue.name",
+      "VALUE": "jms/ecafEdsl/ecafEdslDLTSIT",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 103,
+      "KEY": "dsl.retry.solace.connection.factory",
+      "VALUE": "jms/ecafEdsl/ecafEdslconnectionfactory",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 104,
+      "KEY": "pdf.portal.submit.topic",
+      "VALUE": "jms/evportal/cafpdfSITT",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 105,
+      "KEY": "pdf.solace.consumer.topic",
+      "VALUE": "jms/ATevportal/eDSLCAFModuleSITQ",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 106,
+      "KEY": "dsl.solace.ev.produce.topic",
+      "VALUE": "jms/evportal/evPortalVerificationReqSITT",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 107,
+      "KEY": "dsl.solace.ev.consume.queue",
+      "VALUE": "jms/evportal/evPortalVerificationRespTeleMediaSITQ",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 108,
+      "KEY": "pdf.solace.consumer.connection.factory",
+      "VALUE": "jms/evportal/evportalSITConnectionFactory",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 109,
+      "KEY": "dsl.solace.connection.factory.evportal",
+      "VALUE": "jms/evportal/evportalSITConnectionFactory",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 110,
+      "KEY": "pdf.solace.connection.factory",
+      "VALUE": "jms/evportal/evportalSITConnectionFactory",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 111,
+      "KEY": "dsl.stub.list",
+      "VALUE": "resource",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 112,
+      "KEY": "dsl.solace.queue.url",
+      "VALUE": "smf://10.5.170.247:55555",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 113,
+      "KEY": "dsl.solace.topic.url",
+      "VALUE": "smf://10.5.170.247:55555",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 114,
+      "KEY": "dsl.retry.solace.topic.url",
+      "VALUE": "smf://dev.esbsolace.airtelworld.in:55555",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 115,
+      "KEY": "pdf.solace.consumer.queue.url",
+      "VALUE": "smf://dev.esbsolace.airtelworld.in:55555",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 116,
+      "KEY": "pdf.solace.queue.url",
+      "VALUE": "smf://dev.esbsolace.airtelworld.in:55555",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 117,
+      "KEY": "is.new.feasibility.working",
+      "VALUE": "true",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 118,
+      "KEY": "edsl.compliance.flag",
+      "VALUE": "false",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 120,
+      "KEY": "dslplan.password",
+      "VALUE": "v6Kc6gTH",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 121,
+      "KEY": "online.payment.url",
+      "VALUE": "www.airtel.in/payonline",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 122,
+      "KEY": "nds.customer.profile.port.name",
+      "VALUE": "{Error! Hyperlink reference not valid.",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 123,
+      "KEY": "nds.customer.profile.service.name",
+      "VALUE": "{Error! Hyperlink reference not valid.",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 124,
+      "KEY": "non.aadhaar.otp.send.message",
+      "VALUE": "{otp} is the one time password(OTP) for activation of Airtel Xstream Fiber with Digital Application Form no. {activationMsisdn}. This OTP certifies that you agree to the terms and conditions of Airtel Digital Xstream Fiber Activation Process.",
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 125,
+      "KEY": "caf.no.prefix",
+      "VALUE": null,
+      "CREATED_ON": null,
+      "CREATED_BY": null,
+      "MODIFIED_ON": null,
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 133,
+      "KEY": "edsl.rsu.type.speed",
+      "VALUE": "FTTH Own:1024,FTTH Partner:100",
+      "CREATED_ON": "2020-02-21 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-02-21 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 134,
+      "KEY": "edsl.cutomer.otp.message",
+      "VALUE": "{otp} is the one time password(OTP) for activation of Airtel Xstream Fiber Digital application no. {activationMsisdn}. Please share this code with our representative which will be considered as your acceptance to terms &amp; conditions for installation of Xstream Fiber at address {houseNo} {street} {locality} {landmark} {pincode} {district} {city} {state}. For T&amp;C click,  https://www.airtel.in/broadband-digital-activation/tnc",
+      "CREATED_ON": "2020-02-21 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-02-21 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 135,
+      "KEY": "edsl.upfront.amount.flag",
+      "VALUE": "true",
+      "CREATED_ON": "2020-02-21 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-02-21 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 139,
+      "KEY": "edsl.crm.submitorder.url",
+      "VALUE": "http://10.13.80.242:8000/services/CustomerOrder_V1_2/Manage",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 140,
+      "KEY": "edsl.crm.submitorder.url.username",
+      "VALUE": "ecaf",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 141,
+      "KEY": "edsl.crm.submitorder.url.password",
+      "VALUE": "v6Kc6gTH",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 166,
+      "KEY": "edsl.plans.eligible.sources.list",
+      "VALUE": "Online,homes,ecaf",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 167,
+      "KEY": "edsl.plans.eligible.indentifiers.online",
+      "VALUE": "A,S",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 168,
+      "KEY": "edsl.plans.eligible.indentifiers.homes",
+      "VALUE": "H,A,0",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 169,
+      "KEY": "edsl.plans.eligible.indentifiers.ecaf",
+      "VALUE": "A,E",
+      "CREATED_ON": "2020-04-09 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-04-09 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 170,
+      "KEY": "edsl.get.nearest.rsu.url",
+      "VALUE": "http://10.5.252.71:8680/compassLocation/rest/networkElement/getNearestRsu",
+      "CREATED_ON": "2020-06-25 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-06-25 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 171,
+      "KEY": "edsl.rsu.radius.value",
+      "VALUE": "300",
+      "CREATED_ON": "2020-06-25 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-06-25 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 172,
+      "KEY": "edsl.ne.type.list",
+      "VALUE": "DP,S_OBD,PDP",
+      "CREATED_ON": "2020-06-25 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-06-25 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 415,
+      "KEY": "edsl.skip.ev.task.flag",
+      "VALUE": "false",
+      "CREATED_ON": "2019-12-05 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2019-12-05 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 416,
+      "KEY": "edsl.online.kyc.kci",
+      "VALUE": "Thank you for your interest. With Airtel Xstream Fiber onboarding, you enjoy total Contactless payment, document submission and fast &amp; secure installation of your connection. To onboard, click here http://10.5.204.217/trackRetarget?leadId={id}&amp;type=retarget&amp;source=offline",
+      "CREATED_ON": "2019-12-05 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2019-12-05 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 4418,
+      "KEY": "edsl.tech.wise.rsu.skip",
+      "VALUE": "YYY",
+      "CREATED_ON": "2020-11-10 11:44:14",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-11-10 11:44:14",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 4419,
+      "KEY": "edsl.city.nc.toggle.flag",
+      "VALUE": "true",
+      "CREATED_ON": "2020-11-10 11:44:14",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2020-11-10 11:44:14",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 126,
+      "KEY": "edsl.plans.eligible.indentifiers",
+      "VALUE": "E,A",
+      "CREATED_ON": "2019-01-15 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2019-01-15 00:00:00",
+      "MODIFIED_BY": null
+    },
+    {
+      "PROPERTY_ID": 127,
+      "KEY": "edsl.crm.source.mapping",
+      "VALUE": "eCAF:eCAF,Homes:Homes,AIRTEL_WORK:eCAF,HOMES:Homes",
+      "CREATED_ON": "2019-01-15 00:00:00",
+      "CREATED_BY": null,
+      "MODIFIED_ON": "2019-01-15 00:00:00",
+      "MODIFIED_BY": null
+    }
+  ]
+}
